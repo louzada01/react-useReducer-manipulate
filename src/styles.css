@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  background-color: #009;
+  padding: 50px;
+}
+
+.Card {
+  overflow: hidden;
+  position: relative;
+  height: auto;
+  transition: all 0.5s ease-in-out;
+  width: 250px;
+  background-color: #fff;
+  margin: 10px;
+}
+
+.TitleCard {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.TitleCard button {
+  padding: 5px;
+}
+
+.ContentCard {
+  position: relative;
+  padding: 5px;
+  text-align: left;
+}
+
+.ContentCard h4 {
+  padding: 0;
+  margin: 0;
+}
